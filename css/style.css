@@ -191,6 +191,7 @@ body {
   background-position: top; }
 
 .intro__donate {
+  margin-top: 50px;
   display: flex;
   justify-content: space-around; }
 
