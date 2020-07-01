@@ -392,7 +392,7 @@ body {
 
 .footer {
   font-family: 'Play', sans-serif;
-  margin-bottom: 80px;
+  padding-bottom: 80px;
   /*background: linear-gradient(rgba(0,0,0,0), rgba(0,0,0,0.8)); */ }
 
 .footer__box {
@@ -591,7 +591,7 @@ body {
   .header__link {
     font-size: 24px; }
   .footer {
-    padding-bottom: 40px; } }
+    padding-bottom: 90px; } }
 
 @media (max-width: 666px) {
   .bigtext__content {
@@ -677,7 +677,10 @@ body {
     font-size: 30px;
     line-height: 40px; }
   .footer__box .footer__top div {
-    font-size: 11px; } }
+    font-size: 11px; }
+  .last-span.last-span-ua {
+    font-size: 14px;
+    line-height: 100%; } }
 
 @media (max-width: 320px) {
   .footer__box .footer__top div {
