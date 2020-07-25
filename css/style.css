@@ -497,6 +497,51 @@ body {
   background-color: transparent;
   border: 1px solid #fff; }
 
+.load-wrapp {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  z-index: 100;
+  background-color: #000;
+  opacity: 1;
+  transition: all .5s; }
+
+.load-wrapp.preload-finish {
+  opacity: 0;
+  z-index: -100; }
+
+.line {
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  border-radius: 15px;
+  background-color: #5DF1CB; }
+
+/* =Animate the stuff
+------------------------ */
+.load-3 .line:nth-last-child(1) {
+  animation: loadingC 0.6s 0.1s linear infinite; }
+
+.load-3 .line:nth-last-child(2) {
+  animation: loadingC 0.6s 0.2s linear infinite; }
+
+.load-3 .line:nth-last-child(3) {
+  animation: loadingC 0.6s 0.3s linear infinite; }
+
+@keyframes loadingC {
+  0 {
+    transform: translate(0, 0); }
+  50% {
+    transform: translate(0, 15px); }
+  100% {
+    transform: translate(0, 0); } }
+
 @media (max-width: 900px) {
   .manifesto__item {
     font-size: 20px;
