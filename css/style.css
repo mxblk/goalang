@@ -646,6 +646,15 @@ body {
   .footer {
     padding-bottom: 90px; } }
 
+@media (max-width: 720px) {
+  iframe {
+    width: 96vw; }
+  .form {
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 30px;
+    width: 100vw; } }
+
 @media (max-width: 666px) {
   .bigtext__content {
     font-size: 35px;
