@@ -542,6 +542,9 @@ body {
   100% {
     transform: translate(0, 0); } }
 
+.form {
+  display: none; }
+
 @media (max-width: 900px) {
   .manifesto__item {
     font-size: 20px;
