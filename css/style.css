@@ -543,7 +543,11 @@ body {
     transform: translate(0, 0); } }
 
 .form {
-  display: none; }
+  display: none;
+  background: none; }
+
+.fancybox-slide--html .fancybox-close-small {
+  color: #fff; }
 
 @media (max-width: 900px) {
   .manifesto__item {
